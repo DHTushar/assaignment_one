@@ -1,0 +1,153 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+    background-color: #333;
+}
+
+.profile-img {
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.occupation {
+    margin: 10px 0;
+    color: #777;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.description {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.stat p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.contact-info p {
+    margin: 0px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.text-1{
+    color:#333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-1::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    display: block;
+}
+
+.btn-contact{
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #333;
+    color:#fdfafa;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: #fcfbfb;
+    color:#333;
+    font-weight: bold;
+}
+.social-links {
+    margin: 15px 0;
+}
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+
+.social-links a:hover {
+    color: #030303;
+    font-size: x-large;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.follow-btn, .hire-btn {
+    padding: 10px 20px;
+    border-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.follow-btn {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.hire-btn {
+    background-color: #fdfafa;
+    color: #0a0000;
+}
+
+.follow-btn:hover{
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.hire-btn:hover {
+    background-color: #333;
+    color: #f0f0f0;
+}
